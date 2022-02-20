@@ -5,7 +5,7 @@ def solution(X, Y, D):
     a = Y - X
     if a%D == 0 :
         a = a//D
-        return 
+        return a
     else:
         a = (a//D)+1
         return a
